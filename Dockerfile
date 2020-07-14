@@ -1,4 +1,4 @@
 FROM ubuntu:bionic
 MAINTAINER "Sampath <sampath@nic.lk>"
 RUN apt-get update
-RUN apt-get -y install figlet
+RUN apt-get -y install figlet wget net-tools
